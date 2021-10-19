@@ -1,0 +1,57 @@
+One
+
+Two
+
+Three
+
+Dear colleagues, dear conference participants!
+
+Thank you very much for giving me the opportunity to present our work in front of a wide audience.
+
+It is a joint work of doctoral students and employees in the Institute of Information and Communication Technologies, which is part of the Bulgarian Academy of Sciences.
+
+The title of our talk is: Some Capabilities of Android OS for Distributed Computing
+
+As the agenda of the talk, we will discuss Volunteer Computing, Mobile Distributed Computing, and Optimization Techniques Suitable for Mobile Volunteer Computing.
+
+Some computational problems have calculation steps that are not strongly related to each other in a sequence. Such problems can be divided into smaller chunks, which are calculated simultaneously in parallel. The effect is that the computation is done faster because different chunks are calculated on different computation units.
+
+When calculations are done on separate machines the parallel calculations are called distributed computing. The key point in such systems is the ownership of the calculating machines. When machines are part of a privately-owned infrastructure the system acts as a cluster under someone's control. It is not the same situation when different machines provide donated calculating power and are owned by different individuals. 
+
+Volunteer Computing is a kind of distributed computing that relies on donated computation power. Separate individuals provide their computers to somebody else for usage during idle periods of usage. In such an organization the organizer of the computations does not have any control over the calculating machines. 
+
+The most charming part of Volunteer Computing is that it comes at a relatively low price. On the other side, it has many issues related to the security of the system and the reliability of the received results.
+
+Evolutionary Algorithms are one of the best candidates for Distributed Computing and Mobile Volunteer Computing. Most Evolutionary Algorithms are organized as the population of solutions. Some kind of evolution is applied over the population. Evolutionary Algorithms are most used in problems with global optimization involved. 
+
+Each individual in the population is a single vector in the variable space. The goodness of each individual is calculated by a predefined fitness function. The idea is that better individuals are capable to provide better solutions in the further generations.
+
+In our study, the capabilities of Android OS for Mobile Distributed Computing are illustrated with an application for financial time series forecasting. A three-layered artificial neural network is trained to forecast financial time series. Android OS APIs do not come with software libraries for machine learning. That is why third-party packages are used. For the multilayer perceptron, Java-based implementation of the Encog Machine Learning Framework is used. For the metaheuristic global optimization, Java-based implementation of the Multiobjective Evolutionary Algorithms Framework is used. Single-objective implementation of Differential Evolution is involved in the application development.
+
+Live Wallpapers are the first tool used. They are animated, interactive backgrounds for the Android home screen. Live Wallpaper technology can be very helpful in the intermediate visualization of the results of distributed computations. Android Services is another very powerful tool for performing background calculations. Service is an application component that can perform long-running operations in the background. 
+
+The mobile application communicates with a remote server for getting calculating tasks and report calculation results.
+
+The mobile device is used at regular intervals. It is important for the user to have control over device loading. 
+
+Some visualization options are also provided for the user to choose from.
+
+The screens of different devices are different in size and visualization can be tricky on some of them. That is why the size of visualized information should be parameterized also.
+
+Android Widgets is another component of the graphical user interface that can contribute with additional flexibility in the intermediate visualization of results. Widgets are an essential aspect of home screen customization. Widgets provide an additional option when distributed computing must involve user interaction. Interaction of this kind is common when there is a need for subjective human opinions such as an assessment of beauty or intuition. Widgets give much better interactivity than Live Wallpapers. 
+
+Widgets have their own settings parameters.
+
+Security problems do not differ much in Mobile Volunteer Computing than in the other Internet systems. It has two more complications. First, volunteers can manipulate the calculation results. Second, the accuracy of the results is not guaranteed because of the heterogeneous hardware and software on the client-side.
+
+If there are malicious users, fake or unsatisfying accuracy individuals would be received in the global population on the server-side.
+
+Even with the malicious users, there are positive effects when Evolutionary Algorithms are involved as distributed computations. First, low-quality individuals are removed in local populations relatively fast. Second, a positive effect is achieved by making server-side genotype diversity even higher. 
+
+In a conclusion, Mobile Volunteer Computing is cost-effective. It has almost infinite scaling capabilities. It is one of the most promising areas of scientific researches. Some of the security problems are more advantages than disadvantages.
+
+The main disadvantage is that solved problems should have parallel calculations characteristics. The second disadvantage is that mobile devices are much slower than classical desktop computers. 
+
+Having all these distributed computing capabilities in Android OS is inspiring, but as further research, it will be interesting what can be done with iOS devices and Kai OS devices.
+
+Thank you very much for your attention. If you have any questions, please, feel free to ask.
